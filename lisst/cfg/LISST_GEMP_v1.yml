@@ -1,0 +1,33 @@
+modelconfig:
+  name: LISST_GEMP
+  num_frames_primitive: 10
+  body_repr: bone_transform
+  t_his: 2
+  var_seed_len: true
+  reproj_factor: 1
+
+  predictorcfg:
+    type: RNN
+    h_dim: 512
+    z_dim: 64
+    hdims_mlp:
+      - 512
+      - 512
+
+
+lossconfig:
+  weight_rec: 1.0
+  weight_td: 1.0
+  weight_kld: 1.0
+  annealing_kld: false
+  weight_fk: 1.0
+
+trainconfig:
+  cmu_canon_split: test
+  body_model_path: results/lisst/LISST_SHAPER_v0/checkpoints/epoch-000.ckp
+  max_rollout: 8
+  learning_rate: 0.0005
+  batch_size: 256
+  num_epochs: 5000
+  num_epochs_fix: 1000
+  saving_per_X_ep: 1000
