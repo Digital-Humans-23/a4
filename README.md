@@ -186,7 +186,7 @@ where $r_{xy}$ denotes the xy coordinates of the root joint projection on the fl
 
 The speed score for one motion primitive of $T$ frames is defined as:
 
-  $$s_{speed} = e^{-{1 \over T-2} \sum\limits_{t=1}^{T-1} |speed^t - g_{speed}|}$$
+  $$s_{speed} = e^{-{1 \over T-2} \sum\limits_{t=1}^{T-2} |speed^t - g_{speed}|}$$
 
 Please also implement the floor contact score as in EX.2.
 - Run the script with the command `python scripts/gen_speed.py` to generate motion. The generated `motion.pkl` results will be saved at `results/speed_random` and `results/speed_search`, corresponding to the random rollout results and search results respectively. A log file `quality_log0.pkl` will also be saved for auto testing.
