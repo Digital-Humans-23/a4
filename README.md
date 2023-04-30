@@ -6,7 +6,7 @@ Hand-in: 4 May 2023, 14:00 CET
 
 ----
 
-Leave your name, student ID, ETH email address and the URL link to your motion capture result video if the videos are too large to be pushed to the repository.
+Leave your name, student ID, ETH email address and the URL link to your motion synthesis result videos if the videos are too large to be pushed to the repository.
 
 - Name:
 - Student ID:
