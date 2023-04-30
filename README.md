@@ -6,12 +6,12 @@ Hand-in: 4 May 2023, 14:00 CET
 
 ----
 
-Leave your name, student ID, ETH email address and the URL link to your motion capture result video here.
+Leave your name, student ID, ETH email address and the URL link to your motion capture result video if the videos are too large to be pushed to the repository.
 
 - Name:
 - Student ID:
 - ETH Email:
-- URL:
+- URL (in case the videos are too large, otherwise you can leave it blank):
 
 ----
 
